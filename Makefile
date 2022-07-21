@@ -1,13 +1,16 @@
 # Install alp
 alp:
-	./bin/alp.sh
+	./scripts/alp.sh
 
 # Install htop
 htop:
-	./bin/gtop.sh
+	./scripts/gtop.sh
 
 netdata:
-	./bin/netdata.sh
+	./scripts/netdata.sh
+
+install:
+	ln -s ./bin ~/.bin
 
 # mydql関連
 
@@ -32,4 +35,4 @@ slow-off:
 
 .PHONY: slow-show
 slow-show:
-	./bin/mysqlshow.sh
+	./bin/mysqlshow
