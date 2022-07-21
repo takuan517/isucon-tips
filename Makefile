@@ -4,7 +4,7 @@ alp:
 
 # Install htop
 htop:
-	./scripts/gtop.sh
+	./scripts/htop.sh
 
 netdata:
 	./scripts/netdata.sh
