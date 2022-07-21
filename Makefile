@@ -10,6 +10,7 @@ netdata:
 	./scripts/netdata.sh
 
 install:
+	ln -s ./.bashrc ~/.bashrc
 	ln -s ./bin ~/.bin
 
 # mydql関連
